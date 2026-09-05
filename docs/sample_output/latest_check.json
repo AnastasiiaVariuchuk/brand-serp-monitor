@@ -1,0 +1,176 @@
+{
+  "query": "starcasino",
+  "gl": "nl",
+  "hl": "nl",
+  "device": "desktop",
+  "source": "fixture",
+  "summary": {
+    "total_results": 10,
+    "unique_domains": 9,
+    "counts": {
+      "official": 2,
+      "affiliate": 3,
+      "competitor": 2,
+      "unknown": 3
+    },
+    "shares": {
+      "official": 0.2,
+      "affiliate": 0.3,
+      "competitor": 0.2,
+      "unknown": 0.3
+    },
+    "unique_domain_counts": {
+      "official": 1,
+      "affiliate": 3,
+      "competitor": 2,
+      "unknown": 3
+    },
+    "avg_confidence": 0.722,
+    "low_confidence_results": 3
+  },
+  "results": [
+    {
+      "position": 1,
+      "url": "https://www.starcasino.nl/",
+      "domain": "starcasino.nl",
+      "title": "StarCasino.nl | Online Casino met Nederlandse licentie",
+      "category": "official",
+      "confidence": 0.97,
+      "explanation": "starcasino.nl is listed in the brand's official domain registry",
+      "classifier": "rules",
+      "signals": [
+        "official_domain"
+      ]
+    },
+    {
+      "position": 2,
+      "url": "https://www.starcasino.nl/live-casino",
+      "domain": "starcasino.nl",
+      "title": "Live Casino - StarCasino.nl",
+      "category": "official",
+      "confidence": 0.97,
+      "explanation": "starcasino.nl is listed in the brand's official domain registry",
+      "classifier": "rules",
+      "signals": [
+        "official_domain"
+      ]
+    },
+    {
+      "position": 3,
+      "url": "https://www.onlinecasinoground.nl/starcasino-review/",
+      "domain": "onlinecasinoground.nl",
+      "title": "StarCasino review 2026 - bonus, uitbetaling en ervaringen",
+      "category": "affiliate",
+      "confidence": 0.84,
+      "explanation": "review/bonus vocabulary in the title or snippet: review, ervaringen, bonus; outbound links to the official domain carry tracking parameters (btag, subid); comparison list of casinos that includes both the brand and its competitors",
+      "classifier": "rules",
+      "signals": [
+        "review_markers",
+        "tracked_link_to_official",
+        "multi_brand_toplist"
+      ]
+    },
+    {
+      "position": 4,
+      "url": "https://casino.nl/aanbieders/starcasino/",
+      "domain": "casino.nl",
+      "title": "StarCasino | Vergelijk de beste casino's van Nederland",
+      "category": "affiliate",
+      "confidence": 0.84,
+      "explanation": "review/bonus vocabulary in the title or snippet: beoordeling, vergelijk, beste casino; internal redirect link https://casino.nl/go/starcasino is cloaked and resolves to the official domain (starcasino.nl); comparison list of casinos that includes both the brand and its competitors",
+      "classifier": "rules",
+      "signals": [
+        "review_markers",
+        "cloaked_link_to_official",
+        "multi_brand_toplist"
+      ]
+    },
+    {
+      "position": 5,
+      "url": "https://www.jackscasino.nl/promoties",
+      "domain": "jackscasino.nl",
+      "title": "Jacks.nl - het online casino van Nederland",
+      "category": "competitor",
+      "confidence": 0.68,
+      "explanation": "jackscasino.nl is another licensed operator's domain",
+      "classifier": "rules",
+      "signals": [
+        "known_operator_domain",
+        "review_markers"
+      ]
+    },
+    {
+      "position": 6,
+      "url": "https://starcasinobonus.net/nl/promocode",
+      "domain": "starcasinobonus.net",
+      "title": "StarCasino bonus code 2026 - claim je gratis spins",
+      "category": "affiliate",
+      "confidence": 0.87,
+      "explanation": "the brand name appears in the domain, but the domain is not official; review/bonus vocabulary in the title or snippet: bonus, gratis spins, aanbieding; the redirect chain ends at starcasino.nl; traffic is monetised through a redirect host and lands on the brand",
+      "classifier": "rules",
+      "signals": [
+        "brand_in_domain",
+        "review_markers",
+        "redirect_to_official",
+        "affiliate_network_link"
+      ]
+    },
+    {
+      "position": 7,
+      "url": "https://www.casinonieuws.nl/nieuws/starcasino-sponsordeal-2026/",
+      "domain": "casinonieuws.nl",
+      "title": "StarCasino verlengt sponsordeal - Casinonieuws.nl",
+      "category": "unknown",
+      "confidence": 0.3,
+      "explanation": "signals are contradictory or weak (best hypothesis: affiliate, weight 0.35); best hypothesis is affiliate (weight 0.35), but the 0.6/0.6 threshold was not reached",
+      "classifier": "rules",
+      "signals": [
+        "plain_link_to_official"
+      ]
+    },
+    {
+      "position": 8,
+      "url": "https://casinozonder.nl/starcasino-alternatief",
+      "domain": "casinozonder.nl",
+      "title": "StarCasino alternatief? Bekijk deze casino's zonder wachttijd",
+      "category": "competitor",
+      "confidence": 0.67,
+      "explanation": "the page targets the brand but links only to other operators: betcity.nl, tonybet.nl, unibet.nl; traffic is monetised through a redirect host and lands on other operators",
+      "classifier": "rules",
+      "signals": [
+        "unresolved_internal_redirect",
+        "brand_query_no_official_link",
+        "affiliate_network_link"
+      ]
+    },
+    {
+      "position": 9,
+      "url": "https://nl.trustpilot.com/review/starcasino.nl",
+      "domain": "trustpilot.com",
+      "title": "StarCasino Reviews | Lees klantreviews over starcasino.nl",
+      "category": "unknown",
+      "confidence": 0.58,
+      "explanation": "trustpilot.com is an informational/non-commercial resource; monetisation of brand traffic is not confirmed",
+      "classifier": "rules",
+      "signals": [
+        "neutral_domain",
+        "review_markers",
+        "plain_link_to_official"
+      ]
+    },
+    {
+      "position": 10,
+      "url": "https://casinobonus-nederland.com/starcasino/",
+      "domain": "casinobonus-nederland.com",
+      "title": "StarCasino aanbieding - casinobonus-nederland.com",
+      "category": "unknown",
+      "confidence": 0.5,
+      "explanation": "no page-level evidence (HTTP 403 (Cloudflare bot protection))",
+      "classifier": "rules",
+      "signals": [
+        "review_markers",
+        "no_page_evidence"
+      ]
+    }
+  ]
+}

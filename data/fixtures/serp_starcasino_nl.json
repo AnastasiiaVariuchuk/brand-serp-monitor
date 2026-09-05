@@ -1,0 +1,86 @@
+{
+  "search_metadata": {
+    "id": "demo-starcasino-nl",
+    "status": "Success",
+    "created_at": "2026-09-04 08:00:00 UTC"
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "starcasino",
+    "google_domain": "google.nl",
+    "gl": "nl",
+    "hl": "nl",
+    "device": "desktop"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 184000
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "StarCasino.nl | Online Casino met Nederlandse licentie",
+      "link": "https://www.starcasino.nl/",
+      "snippet": "Speel veilig bij StarCasino, het online casino met een KSA-vergunning. Slots, live casino en meer."
+    },
+    {
+      "position": 2,
+      "title": "Live Casino - StarCasino.nl",
+      "link": "https://www.starcasino.nl/live-casino",
+      "snippet": "Speel live roulette en blackjack met echte dealers bij StarCasino."
+    },
+    {
+      "position": 3,
+      "title": "StarCasino review 2026 - bonus, uitbetaling en ervaringen",
+      "link": "https://www.onlinecasinoground.nl/starcasino-review/",
+      "snippet": "Onze uitgebreide StarCasino review: welkomstbonus, gratis spins en betrouwbaarheid."
+    },
+    {
+      "position": 4,
+      "title": "StarCasino | Vergelijk de beste casino's van Nederland",
+      "link": "https://casino.nl/aanbieders/starcasino/",
+      "snippet": "Beoordeling van StarCasino en vergelijking met andere legale casino's."
+    },
+    {
+      "position": 5,
+      "title": "Jacks.nl - het online casino van Nederland",
+      "link": "https://www.jackscasino.nl/promoties",
+      "snippet": "Op zoek naar StarCasino? Ontdek de bonussen van Jacks Casino."
+    },
+    {
+      "position": 6,
+      "title": "StarCasino bonus code 2026 - claim je gratis spins",
+      "link": "https://starcasinobonus.net/nl/promocode",
+      "snippet": "Exclusieve StarCasino bonuscode en aanbieding voor nieuwe spelers."
+    },
+    {
+      "position": 7,
+      "title": "StarCasino verlengt sponsordeal - Casinonieuws.nl",
+      "link": "https://www.casinonieuws.nl/nieuws/starcasino-sponsordeal-2026/",
+      "snippet": "De operator kondigde vandaag een nieuwe samenwerking aan."
+    },
+    {
+      "position": 8,
+      "title": "StarCasino alternatief? Bekijk deze casino's zonder wachttijd",
+      "link": "https://casinozonder.nl/starcasino-alternatief",
+      "snippet": "Zoek je StarCasino? Deze aanbieders betalen sneller uit."
+    },
+    {
+      "position": 9,
+      "title": "StarCasino Reviews | Lees klantreviews over starcasino.nl",
+      "link": "https://nl.trustpilot.com/review/starcasino.nl",
+      "snippet": "Bekijk wat 1.243 klanten hebben geschreven over starcasino.nl."
+    },
+    {
+      "position": 10,
+      "title": "StarCasino aanbieding - casinobonus-nederland.com",
+      "link": "https://casinobonus-nederland.com/starcasino/",
+      "snippet": "Alles over de huidige StarCasino aanbieding."
+    },
+    {
+      "position": 11,
+      "title": "Broken entry without a link",
+      "snippet": "This item must be skipped by the parser."
+    }
+  ]
+}

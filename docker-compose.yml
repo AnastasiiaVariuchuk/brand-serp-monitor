@@ -1,0 +1,57 @@
+services:
+  # One-off SERP check:  docker compose run --rm monitor
+  monitor:
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    image: brand-serp-monitor:latest
+    environment: &env
+      SERP_API_URL: ${SERP_API_URL:-https://serpapi.com/search.json}
+      SERP_API_KEY: ${SERP_API_KEY:-}
+      USE_LLM: ${USE_LLM:-false}
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      DB_PATH: /app/state/serp_monitor.sqlite3
+      HTTP_TIMEOUT: ${HTTP_TIMEOUT:-15}
+      MAX_RETRIES: ${MAX_RETRIES:-3}
+    volumes:
+      - serp-state:/app/state      # check history survives restarts
+      - ./output:/app/output       # JSON/CSV available on the host
+    command: ["run", "--source", "fixture", "--out", "/app/output"]
+
+  # Dashboard:  docker compose up ui  ->  http://localhost:8000
+  ui:
+    image: brand-serp-monitor:latest
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    environment: *env
+    volumes:
+      - serp-state:/app/state      # reads the same history the `monitor` service writes
+    ports:
+      - "${UI_PORT:-8000}:8000"
+    # 0.0.0.0 is required inside the container: the default 127.0.0.1 is not
+    # reachable from the host even with the port published.
+    command: ["serve", "--host", "0.0.0.0", "--port", "8000"]
+
+  # Tests:  docker compose run --rm tests
+  tests:
+    image: brand-serp-monitor:latest
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    environment: *env
+    # command must be overridden: otherwise the image CMD would be appended to pytest
+    entrypoint: ["python", "-m", "pytest"]
+    command: ["-q", "tests"]
+
+volumes:
+  serp-state:

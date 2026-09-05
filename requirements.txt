@@ -1,0 +1,3 @@
+# Runtime dependencies are optional: the offline demo runs on the stdlib only.
+requests>=2.31,<3        # live SERP API + page evidence collection
+pytest>=8.0              # tests

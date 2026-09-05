@@ -1,0 +1,93 @@
+{
+  "_comment": "Offline snapshots of page evidence, keyed by registrable domain. Produced by HttpEvidenceProvider in production.",
+  "starcasino.nl": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://www.starcasino.nl/",
+    "outbound": [
+      "https://kansspelautoriteit.nl/",
+      "https://www.loketkansspel.nl/"
+    ]
+  },
+  "onlinecasinoground.nl": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://www.onlinecasinoground.nl/starcasino-review/",
+    "outbound": [
+      "https://www.starcasino.nl/?btag=ocg_2026_nl&subid=review",
+      "https://www.jackscasino.nl/?btag=ocg_2026",
+      "https://www.kansino.nl/",
+      "https://kansspelautoriteit.nl/"
+    ]
+  },
+  "casino.nl": {
+    "_comment": "Cloaked affiliate: the brand CTA points at an on-site redirector, so the page shows no link to starcasino.nl at all. Only following /go/starcasino reveals the btag.",
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://casino.nl/aanbieders/starcasino/",
+    "outbound": [
+      "https://casino.nl/go/starcasino",
+      "https://www.hollandcasino.nl/",
+      "https://www.betcity.nl/",
+      "https://kansspelautoriteit.nl/"
+    ],
+    "resolved_internal_links": {
+      "https://casino.nl/go/starcasino": "https://www.starcasino.nl/?btag=casinonl_2026&subid=aanbieders"
+    }
+  },
+  "jackscasino.nl": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://www.jackscasino.nl/promoties",
+    "outbound": [
+      "https://kansspelautoriteit.nl/"
+    ]
+  },
+  "starcasinobonus.net": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://www.starcasino.nl/?btag=scbonus_promo&clickid=8812",
+    "redirect_chain": [
+      "https://starcasinobonus.net/nl/promocode",
+      "https://go.starcasinobonus.net/out?target=star&clickid=8812",
+      "https://www.starcasino.nl/?btag=scbonus_promo&clickid=8812"
+    ],
+    "outbound": [
+      "https://go.starcasinobonus.net/out?target=star&clickid=8812"
+    ]
+  },
+  "casinonieuws.nl": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://www.casinonieuws.nl/nieuws/starcasino-sponsordeal-2026/",
+    "outbound": [
+      "https://www.starcasino.nl/",
+      "https://www.rijksoverheid.nl/"
+    ]
+  },
+  "casinozonder.nl": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://casinozonder.nl/starcasino-alternatief",
+    "outbound": [
+      "https://track.casinozonder.nl/go?to=unibet&clickid=771",
+      "https://www.unibet.nl/?aff_id=czr771",
+      "https://www.betcity.nl/?aff_id=czr771",
+      "https://www.tonybet.nl/?aff_id=czr771"
+    ]
+  },
+  "trustpilot.com": {
+    "fetched": true,
+    "status": 200,
+    "final_url": "https://nl.trustpilot.com/review/starcasino.nl",
+    "outbound": [
+      "https://www.starcasino.nl/"
+    ]
+  },
+  "casinobonus-nederland.com": {
+    "fetched": false,
+    "status": 403,
+    "error": "HTTP 403 (Cloudflare bot protection)",
+    "outbound": []
+  }
+}

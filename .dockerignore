@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.env
+*.sqlite3
+output/
+state/
+docs/sample_output/
+*.zip
