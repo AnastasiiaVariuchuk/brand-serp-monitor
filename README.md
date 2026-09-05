@@ -6,7 +6,7 @@ domain (`official` / `affiliate` / `competitor` / `unknown`), stores the history
 in SQLite and shows what changed between checks.
 
 The theory part (1) lives in [`docs/THEORY.md`](docs/THEORY-1.md).
-The theory part (2.1) lives in [`docs/THEORY.md`](docs/THEORY-2.1md.md).
+The theory part (2.1) lives in [`docs/THEORY.md`](docs/THEORY-2.1.md).
 
 ---
 
